@@ -2,7 +2,7 @@
 
 Interactive, explodable three.js models of **Thermo Scientific iCAP RQ (single quad) and iCAP TQ (triple quad) ICP-MS** coupled to **193 nm ArF excimer** and **femtosecond** laser-ablation systems. Small physics modules compute the quadrupole stability, the collision-cell energy filtering, ablation, washout and U–Pb data reduction, so these are not drawn by hand.
 
-> **Status:** private repository for review. The GitHub Pages workflow is **manual only** (`workflow_dispatch`), because a Pages site is public even when the repo is private.
+> **Live site:** <https://duserzym.github.io/laicpms-3d/>
 
 | Scene | What it shows |
 |---|---|
