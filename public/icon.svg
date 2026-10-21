@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">LA-ICP-MS 3D icon</title>
+  <desc id="desc">A 193 nm laser beam ablates a zircon crystal; the aerosol plume flows into an argon plasma torch.</desc>
+  <defs>
+    <linearGradient id="tile" x2="0.8" y2="1">
+      <stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9eef5"/>
+    </linearGradient>
+    <linearGradient id="iron" x2="1" y2="1">
+      <stop stop-color="#55606f"/><stop offset="1" stop-color="#2f3742"/>
+    </linearGradient>
+    <linearGradient id="quartz" x2="1">
+      <stop stop-color="#cfe6f7"/><stop offset="0.5" stop-color="#f4fbff"/><stop offset="1" stop-color="#b9d6ea"/>
+    </linearGradient>
+    <radialGradient id="plasma" cx="0.5" cy="0.6" r="0.5">
+      <stop stop-color="#ffffff"/><stop offset="0.3" stop-color="#ffe2a8"/><stop offset="0.65" stop-color="#ff9f45" stop-opacity="0.85"/><stop offset="1" stop-color="#b06cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plume" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#fff3d6"/><stop offset="0.45" stop-color="#ffc77a" stop-opacity="0.7"/><stop offset="1" stop-color="#ffb04a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0f1b2d" flood-opacity="0.25"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#tile)"/>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="none" stroke="#d9e1ec" stroke-width="10"/>
+  <g filter="url(#shadow)">
+    <rect x="146" y="72" width="68" height="74" rx="9" fill="url(#iron)"/>
+    <rect x="156" y="140" width="48" height="16" rx="5" fill="#2f3742"/>
+    <rect x="96" y="384" width="176" height="38" rx="10" fill="#2d2a26"/>
+    <polygon points="138,384 156,350 206,350 224,384 206,400 156,400" fill="#c8683a"/>
+    <polygon points="156,350 206,350 196,334 166,334" fill="#f0b07a"/>
+    <polygon points="206,350 224,384 230,368 216,340" fill="#a9573a"/>
+    <rect x="334" y="236" width="50" height="186" rx="12" fill="url(#quartz)" stroke="#9cbcd4" stroke-width="3"/>
+    <rect x="352" y="250" width="14" height="172" rx="5" fill="#e8f2fa" stroke="#9cbcd4" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="#c7783f" stroke-width="8" stroke-linecap="round">
+    <path d="M326,262 L392,270"/><path d="M326,282 L392,290"/><path d="M326,302 L392,310"/>
+  </g>
+  <ellipse cx="359" cy="196" rx="44" ry="66" fill="url(#plasma)"/>
+  <path d="M180,156 L180,334" stroke="#9b5cff" stroke-width="16" stroke-linecap="round" filter="url(#glow)" opacity="0.8"/>
+  <path d="M180,156 L180,334" stroke="#c9a6ff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="182" cy="322" r="40" fill="url(#plume)"/>
+  <g fill="#ffb04a">
+    <circle cx="222" cy="304" r="7"/><circle cx="250" cy="286" r="6.5" opacity="0.9"/><circle cx="278" cy="274" r="6" opacity="0.85"/>
+    <circle cx="304" cy="268" r="5.5" opacity="0.8"/><circle cx="236" cy="318" r="4.5" opacity="0.7"/><circle cx="266" cy="300" r="4.5" opacity="0.7"/>
+  </g>
+</svg>
